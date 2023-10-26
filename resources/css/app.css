@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-black{
+    @apply inline-block px-6 py-2 bg-black hover:bg-black/80 text-white rounded-md;
+}
+
+.btn-gray{
+    @apply inline-block px-6 py-2 bg-gray-500 hover:bg-gray-600 text-white rounded-md;
+}
+
+.btn-blue{
+    @apply inline-block px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-md;
+}
+
+.btn-green{
+    @apply inline-block px-4 py-2 bg-green-500 hover:bg-green-600 text-white rounded-md;
+}
+
+.btn-gray{
+    @apply inline-block px-4 py-2 bg-gray-500 hover:bg-gray-600 text-white rounded-md;
+}
+
+.btn-red{
+    @apply inline-block px-4 py-2 bg-red-500 hover:bg-red-600 text-white rounded-md;
+}
